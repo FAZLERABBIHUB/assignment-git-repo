@@ -137,3 +137,92 @@ nav{
     color: #000000; 
     font-weight: 400px;
 }
+
+/* users feedback section */
+
+.feedback-style {
+    background-color: #FFFFFF; 
+    text-align: center;
+}
+
+.feedback-header h2 {
+    color: #1E1E1E;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    
+}
+.cards-container {
+    display:flex; 
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.card-style {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+    text-align: left;
+    height: 243px;
+}
+.icon-style {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 24px;
+}
+
+.icon-style img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-content {
+    margin-bottom: 24px;
+}
+
+.card-content h3 {
+    color: #1E1E1E;
+    font-size: 20px; 
+    font-weight: bold;
+    margin: 0 0 24px 0; 
+}
+
+.card-content p {
+    color: #555;
+    font-size: 15px;
+    margin: 0;
+}
+.users-style {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: auto;
+}  
+.users-style img {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+}
+.users-style h3 {
+    font-size:15px;
+    font-weight: bold;
+    color: #757575;
+    margin: 0;
+}
+
+.users-style p {
+    font-size: 10px;
+    color: #757575;
+    margin: 0;
+}
+
+
+
+
+
+
