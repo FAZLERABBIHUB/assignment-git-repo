@@ -99,3 +99,41 @@ nav{
   border-radius: 10px;
   margin-top: 23px;
 }
+/* productive section */
+
+.Productive-style {
+    background-color: #cbd4ff; 
+    padding: 50px 80px;
+    text-align: center;
+    border-radius: 24px; 
+    width: 1140px;
+    height:350px;
+      margin: auto;
+}
+
+#Productive-head h3 {
+    font-size: 38px; 
+    font-weight: bold;
+    color:#252432; 
+    margin:50px 142px 0px 142px ; 
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.stats h3 {
+    font-size: 80px;
+    font-weight: bold;
+     color: #4E47FF; 
+}
+
+.stats p {
+    font-size: 20px; 
+    color: #000000; 
+    font-weight: 400px;
+}
