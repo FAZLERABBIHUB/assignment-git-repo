@@ -24,7 +24,10 @@
   height: 48px;
   border-radius: 10px;
   margin: 0px 365px 0px 365px;
-  box-shadow: none;
+cursor: pointer;
+}
+#btn:hover{
+  background-color: red;
 }
 #text{
   text-align: center;
@@ -53,7 +56,10 @@ nav{
  height: 48px;
  border-radius: 15px;
  box-shadow: none;
-
+cursor: pointer;
+}
+.btn-primary:hover{
+   background-color: red;
 }
 .header{
  max-width: 1440px;
@@ -98,7 +104,12 @@ nav{
   padding: 12px 36px;
   border-radius: 10px;
   margin-top: 23px;
+  cursor:pointer
 }
+#btn-third:hover{
+  background-color: red;
+}
+
 /* productive section */
 
 .Productive-style {
@@ -250,6 +261,10 @@ nav{
   padding: 12px 36px;
   border-radius: 12px;
   margin: 20px 472px 20px 472px;
+  cursor: pointer;
+}
+#btn-frouth:hover{
+  background-color: red;
 }
 .focus-img{
   width: 840px;
@@ -258,8 +273,130 @@ nav{
   margin: 20px 150px 71px 100px;
   overflow: hidden;
 }
+/* from section */
 
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 632px;
+    background-color: #D6DDED;
+    margin: 92px 150px 14px 150px;
+}
+.form-text{
+  width: 528px;
+  height: 232px;
+  margin: 200px 115px 200px 150px;
+  font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+}
 
+.form-container {
+  width: 497px;
+    max-width: 490px;
+    margin: 71px 0px 71px 115px;
+    gap: 19px;
+}
 
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
 
+#email-style{
+  display: flex;
+  flex-direction: column;
+  width: 497px;
+  height: 102px;
+  margin: 71px 150px 19px 0px;
+}
+#email-style input{
+  background-color:#FFFFFF;
+  width: 485px;
+  height: 70px;
+  border-radius: 10px
+}
+
+{
+  display: flex;
+  flex-direction: column;
+  width: 497px;
+  height: 102px;
+  margin: 0px 150px 19px 115px;
+}
+#name-style input{
+  background-color:#FFFFFF;
+  width: 485px;
+  height: 70px;
+  border-radius: 10px
+}
+#message-style{
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+  height: 167px;
+  margin-top: 19px;
+}
+#message-style input{
+  background-color: #FFFFFF;
+  width: 485px;
+  height: 135px;
+  border-radius: 15px;
+  
+  
+}
+form label{
+  font-size: 18px;
+  color:#000000;
+}
+#button{
+  margin-top: 20px;
+    padding: 19px 100px;
+    background-color:#4E47FF;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 485px;
+    height: 62px;
+    cursor: pointer;
+}
+#button:hover{
+  background-color: red;
+}
+/* footer section */
+
+.footer-section{
+  width: 1440px;
+  height: 428px;
+  background-color: #FFFFFF;
+}
+#footer-head{
+  font-weight: 900px;
+  font-size: 100px;
+  color: #4E47FF;
+  margin: 104px 575px 8px 574px;
+  width: 291px;
+  height: 121px;
+}
+#footer-p{
+ width: 531px; 
+  height: 48px;
+  color: #8987A1;
+  margin: 0px 455px  20px 454px;
+}
+.footer-link{
+  width: 401px;
+  height: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 520px 103px 519px;
+}
+.footer-link a{
+  text-decoration: none;
+  color: #8987A1;
+}
 
